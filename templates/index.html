@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escritora Caroline Machado</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Happy+Monkey:regular"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='img') }}" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img
+          src="{{ url_for('static', filename='img/logo-header.png') }}"
+          alt="logo-header"
+          class="logo-header"
+        />
+        <div class="header-content">
+          <p class="sectionTitle">Olá, me chamo Caroline Machado</p>
+          <p class="sectionTitle2">Divirta-se com minhas Histórias</p>
+        </div>
+        <div class="headerBtnGroup">
+          <button class="navBtn">Sobre</button>
+
+          <button class="navBtn">Contato</button>
+          <button class="navBtn">Ajuda</button>
+        </div>
+      </header>
+      <section class="gridContainer">
+        <div class="mainContent">
+          <div class="books">
+            <a
+              href="https://www.amazon.com/Como-matar-Portuguese-Caroline-Machado/dp/1676692444"
+              ><img
+                src="{{ url_for('static', filename='img/matarOlga.jpg') }}"
+                alt="booksList"
+                class="booksList"
+            /></a>
+            <p class="titleBooks">COMO MATAR OLGA?</p>
+            <p class="info1">
+              Em 2008, um trágico acidente assola a vida de Virgínia e Ângelo. A
+              mulher, descrente após o acontecido, entende ter recebido um sinal
+              divino que a permitiria deixar o luto para trás: deve matar a
+              misteriosa Olga - uma pecadora. Todavia, não sabe como fazê-lo. Ao
+              mesmo tempo, o homem navega pelas águas tortuosas da perda
+              sentindo-se culpado enquanto busca impedir que Virgínia descubra o
+              segredo que ele oculta.
+            </p>
+          </div>
+          <div class="books">
+            <a
+              href="https://editoraascensao.lojavirtualnuvem.com.br/produtos/metade-mulher-metade-poesia-antologia-poetica/"
+              ><img
+                src="//d3ugyf2ht6aenh.cloudfront.net/stores/001/018/983/products/metade-mulher-metade-poesia-rosa1-d7f5d36e9b1ad7146316553466171982-1024-1024.jpg"
+                alt="booksList"
+                class="booksList"
+            /></a>
+            <p class="titleBooks">
+              METADE MULHER, METADE POESIA (ANTOLOGIA POÉTICA)
+            </p>
+            <p class="info1">
+              “Olhar, sentido, vivência e compreensão. Na totalidade e
+              complexidade: Coração. Mente. Alma. Corpo. Traumas e recomeços.
+              Tudo. Mulher, movimento e antítese sentimental, ser essencialmente
+              paradoxal: indiviso. Metade mulher, metade poesia. Inteira. Quem
+              não tira os olhos do que precisa ser visto e ama com calma e
+              cuidado, e sente a necessidade de fazer o que ninguém teve coragem
+              de fazer antes: amar. Respirar, olhar um pouco para o céu,
+              respeitar os limites. Viver. Ter os olhos atentos para enxergar
+              muito além da superfície. Para dentro dela mesma: intensa, plural,
+              potente. Real. Mulher.”
+            </p>
+          </div>
+          <div class="books">
+            <a
+              href="https://editoraascensao.lojavirtualnuvem.com.br/produtos/florescer-antologia-infantil/"
+              ><img
+                src="//d3ugyf2ht6aenh.cloudfront.net/stores/001/018/983/products/whatsapp-image-2022-01-22-at-16-04-401-5b874e0e798e7c5db916443669391013-1024-1024.jpeg"
+                alt="booksList"
+                class="booksList"
+            /></a>
+            <p class="titleBooks">FLORESCER (ANTOLOGIA INFANTIL)</p>
+            <p class="info1">
+              “No mundo encantado das flores, um lugar harmônico, com diversas
+              espécies mágicas, unicórnios, elfos, seres vegetais e energéticos,
+              vivem os personagens principais dessa antologia. Eles vivenciam
+              diversas aventuras e emoções, que serão contadas nas dez
+              historinhas que compõem esse livro. As tramas são recheadas de
+              desafios enfrentados por uma turma mais do que especial. Juntos,
+              vamos descobrir o que o mundo florido tem a ensinar sobre a
+              natureza para a criançada! Embarquem conosco nesse universo.”
+            </p>
+          </div>
+          <div class="books">
+            <a
+              href="https://editoraascensao.lojavirtualnuvem.com.br/produtos/cartas-para-elas-ana-carla-longo-e-rauani-castro/"
+              ><img
+                src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/018/983/products/whatsapp-image-2021-11-03-at-12-46-371-71bf0bd7592466932516415865396998-1024-1024.jpeg"
+                alt="booksList"
+                class="booksList"
+            /></a>
+            <p class="titleBooks">
+              CARTAS PARA ELAS (ANA CARLA LONGO E RAUANI CASTRO)
+            </p>
+            <p class="info1">
+              "Cartas escritas por mulheres e para mulheres que foram ou são
+              apoio, incentivo, inspiração, refúgio, direção e caminho. Nessa
+              antologia, teremos acesso a cartas que falam de amor, superação,
+              lutas, alegrias, tristezas, empoderamento e todo o universo da
+              constante luta feminina. São relatos de mulheres que têm muito a
+              dizer e precisam ser ouvidas. Escrever é reverberar, é tornar
+              verbo e é, também, evolução. É, por isso, pôr no mundo o que
+              precisa ser visto nele. “Cartas para elas” é, justamente, essa
+              ponte entre escrita e vivência."
+            </p>
+          </div>
+          <div class="sidebarContent">
+            <p class="sidebarInfo">Me acompanhe em outras redes.</p>
+            <div class="sidebarCard">
+              <div>
+                <a href="https://www.tiktok.com/@carolinemachada"
+                  ><img
+                    src="{{ url_for('static', filename='img/logo-tiktok.svg') }}"
+                    alt="imagesSide"
+                    class="imagesSide"
+                /></a>
+              </div>
+              <div>
+                <a href="https://www.instagram.com/carolinemachada/?hl=pt-br"
+                  ><img
+                    src="{{ url_for('static', filename='img/logo-instagram.svg') }}"
+                    alt="imagesSide"
+                    class="imagesSide"
+                /></a>
+              </div>
+              <div>
+                <a href="https://carolinemachado.medium.com/"
+                  ><img
+                    src="{{ url_for('static', filename='img/logo-medium.svg') }}"
+                    alt="imagesSide"
+                    class="imagesSide"
+                /></a>
+              </div>
+              <div>
+                <a href="https://www.facebook.com/carolinemachada"
+                  ><img
+                    src="{{ url_for('static', filename='img/logo-facebook.svg') }}"
+                    alt="imagesSide"
+                    class="imagesSide"
+                /></a>
+              </div>
+              <div>
+                <a href="https://medium.com/a-coluna"
+                  ><img src="{{url_for("static",
+                  filename="img/logo-coluna.svg")}}" alt="imagesSide"
+                  class="imagesSide"></a
+                >
+              </div>
+              <div>
+                <a
+                  href="https://m.facebook.com/story.php?story_fbid=772555453875228&id=1645145022433897&m_entstream_source=timeline&anchor_composer=false"
+                  ><img
+                    src="{{ url_for('static', filename='img/logo-radio.svg') }}"
+                    alt="imagesSide"
+                    class="imagesSide"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="footerimg">
+        <img
+          src="{{ url_for('static', filename='img/logo-footer.png') }}"
+          alt="logo-header"
+          class="logo-footer"
+        />
+      </div>
+    </footer>
+  </body>
+</html>

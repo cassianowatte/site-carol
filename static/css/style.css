@@ -1,0 +1,296 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  width: 100%;
+  display: flex;
+  min-height: 40px;
+  align-items: center;
+  background-color: #eeff00;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.logo-header {
+  width: 130px;
+  background-color: transparent;
+}
+.header-content {
+  display: grid;
+
+  gap: 8px;
+
+  text-align: center;
+  background-color: transparent;
+}
+.navBtn {
+  font-size: 20px;
+  padding: 8px;
+  background-color: #adf700;
+  border: 4px solid transparent;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 500px;
+}
+.navBtn:hover {
+  border: 2px solid #eeff00;
+}
+.sectionTitle {
+  font-family: "Happy Monkey";
+  font-size: 30px;
+  font-weight: bolder;
+}
+.sectionTitle2 {
+  font-family: "Happy Monkey";
+  font-size: 20px;
+  font-weight: bolder;
+}
+.gridContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 238, 0);
+  padding: 10px 10px;
+}
+.mainContent {
+  display: flex;
+  padding: 10px 10px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+.books {
+  padding: 10px 10px;
+  text-align: center;
+}
+.booksList {
+  max-height: 250px;
+
+  border-radius: 30px;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+.booksList:hover {
+  border: 2px solid black;
+  border-radius: 30px;
+}
+.titleBooks {
+  font-family: "Happy Monkey";
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 15px;
+}
+.info1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 8px;
+  font-size: 18px;
+}
+.sidebarContent {
+  background-color: #eeff00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px;
+  min-width: 170px;
+  border-radius: 30px;
+}
+.sidebarInfo {
+  font-size: 15px;
+  text-align: center;
+  font-family: "Happy Monkey";
+  font-weight: bold;
+}
+.sidebarCard {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  gap: 10px;
+}
+.imagesSide {
+  width: 80px;
+}
+
+.imagesSide1 {
+  width: 230px;
+}
+.imagesSide2 {
+  width: 180px;
+  margin-left: 30px;
+}
+.textColuna {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Happy Monkey";
+  text-align: center;
+  padding: 13px 0px;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 40px;
+  align-items: center;
+  background-color: #eeff00;
+}
+.logo-footer {
+  width: 600px;
+}
+
+.footerimg {
+  padding: 10px 10px;
+}
+@media (max-width: 1024px) {
+  .mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    gap: 0px;
+  }
+  .titleBooks {
+    font-size: 20px;
+  }
+  .info1 {
+    font-size: 20px;
+  }
+  .sidebarContent {
+    height: 180px;
+  }
+  .sidebarCard {
+    display: flex;
+    flex-direction: row;
+  }
+  .sidebarInfo {
+    font-size: 21px;
+  }
+}
+@media (max-width: 768px) {
+  .mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    gap: 0px;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .logo-header {
+    display: none;
+  }
+  .sidebarContent {
+    height: 270px;
+  }
+  .sidebarCard {
+    display: grid;
+    grid-template-areas: "imagesSide imagesSide imagesSide";
+  }
+  .titleBooks {
+    font-size: 20px;
+  }
+  .info1 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 500px) {
+  .mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    gap: 0px;
+  }
+  .container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    gap: 0px;
+  }
+  .books {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+  }
+  .titleBooks {
+    font-size: 20px;
+    padding-top: 8px;
+  }
+  .info1 {
+    font-size: 18px;
+  }
+  .booksList {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+  }
+  .sectionTitle {
+    padding: 5px;
+  }
+  .sectionTitle2 {
+    padding: 9px;
+  }
+  .headerBtnGroup {
+    padding: 10px;
+  }
+  .sidebarContent {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 470px;
+    width: 300px;
+    border-radius: 30px;
+  }
+  .sidebarCard {
+    display: grid;
+    grid-template-areas: "imagesSide imagesSide";
+    padding: 15px 15px;
+  }
+  .imagesSide {
+    width: 110px;
+    display: grid;
+    align-items: center;
+  }
+
+  .header {
+    justify-content: center;
+  }
+  .footer {
+    justify-content: center;
+  }
+  .logo-footer {
+    width: 360px;
+  }
+  .logo-header {
+    display: none;
+  }
+}
+@media (max-width: 1440px) and (min-width: 1025px) {
+  .mainContent {
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    gap: 0px;
+  }
+}
